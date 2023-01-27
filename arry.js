@@ -16,3 +16,10 @@ number.pop();
 
 var num3 = number.pop();
 console.log(number);
+
+var iPhn = 79000;
+var myBudget = 9500;
+
+if(iPhn > myBudget){
+    console.log('yes i can buy')
+}
