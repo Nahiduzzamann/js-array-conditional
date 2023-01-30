@@ -36,4 +36,7 @@ var shoppingCart = {
 var properties = Object.keys(shoppingCart);
 //console.log(properties);
 var propertiesValue = Object.values(shoppingCart);
-console.log(propertiesValue);
+//console.log(propertiesValue);
+
+shoppingCart.sunglass=15;
+console.log(shoppingCart)
