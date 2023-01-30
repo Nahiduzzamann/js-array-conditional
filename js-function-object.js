@@ -22,4 +22,18 @@ var student = {
     marks: 32,
 }
 
-console.log(student.name);
+//console.log(student.name);
+
+var shoppingCart = {
+    books: 3,
+    sunglass: 1,
+    pen: 25,
+    mouse:1,
+}
+
+// know about object property 
+
+var properties = Object.keys(shoppingCart);
+//console.log(properties);
+var propertiesValue = Object.values(shoppingCart);
+console.log(propertiesValue);
