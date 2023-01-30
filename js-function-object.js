@@ -11,4 +11,15 @@ function add (num1, num2){
     return sum;
 }
 
-console.log(add(2,3));
+//console.log(add(2,3));
+
+//object
+
+var student = {
+    id: 2661,
+    name: 'nahid',
+    class: 1,
+    marks: 32,
+}
+
+console.log(student.name);
