@@ -43,5 +43,19 @@ shoppingCart.sunglass=15;
 
 for(var keys in shoppingCart){
      var keysValue =  shoppingCart[keys];
-     console.log(keys, keysValue);
+     //console.log(keys, keysValue);
+}
+
+
+var num = 2;
+switch(num){
+    case 1:
+        console.log('this is 1');
+        break;
+    case 2:
+        console.log('this is 2');
+        break;
+    case 3:
+        console.log('this is 3');
+        break;
 }
