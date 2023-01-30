@@ -1,9 +1,14 @@
-function startFsn(){
-    console.log('starting')
-    console.log('now cool')
-
+//function
+function startFsn(money){
+    console.log('starting');
+    console.log('now cool');
+    console.log(money);
 }
 
+function add (num1, num2){
+    console.log('num1=',num1,'num2= ',num2);
+    var sum = num1 + num2 ;
+    return sum;
+}
 
-
-startFsn();
+console.log(add(2,3));
