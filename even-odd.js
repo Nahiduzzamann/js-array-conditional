@@ -9,4 +9,3 @@ function EvenOddChecker (num) {
 
 }
 
-EvenOddChecker(7);
